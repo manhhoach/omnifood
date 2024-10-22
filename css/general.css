@@ -1,0 +1,52 @@
+
+/*GENERAL COMPONENTS*/
+
+.btn:link,
+.btn:visited {
+   display: inline-block;
+   background-color: #e67e22;
+   font-size: 2rem;
+   padding: 1.6rem 3.2rem;
+   border-radius: 9px;
+   text-decoration: none;
+   transition: background-color 0.5s;
+   font-weight: 600;
+}
+
+.btn--full:link,
+.btn--full:visited {
+   background-color: #e67e22;
+   color: white;
+
+}
+
+.btn--full:hover,
+.btn--full:active {
+   background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+   background-color: white;
+   color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+   background-color: #fdf2e9;
+   /* dùng như này thì button bị to lên => giao diện bị đẩy, nên dùng cách khác
+   border: 3px solid white; */
+   box-shadow: inset 0 0 0 3px white;
+
+
+
+}
+
+.heading-primary {
+   font-size: 5.2rem;
+   color: #333;
+   line-height: 1.05;
+   font-weight: 700;
+   letter-spacing: -0.5px;
+   margin-bottom: 3.2rem;
+}
